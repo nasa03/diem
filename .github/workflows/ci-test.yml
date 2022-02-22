@@ -2,7 +2,7 @@ name: ci-test
 
 on:
   push:
-    branches: [auto, canary]
+    branches: [auto]
   pull_request:
     branches: [main, release-*, gha-test-*]
 
